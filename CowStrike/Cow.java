@@ -10,10 +10,10 @@ public class Cow
     public Cow()
     {
         Random r = new Random();
-        // int percen = r.nextInt(1, 101);
+        int percen = r.nextInt(1, 101);
         like = r.nextInt(1, 11);
-        // if (percen <= 95)
-        // {
+        if (percen <= 95)
+        {
             udder = 4;
             sex = 1;
         // }
