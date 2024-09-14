@@ -22,8 +22,8 @@ public class main {
         while (true)
         {
             cStrk.working(cows, machines);
-            // if (ver.case1(machines) || ver.case2(machines) || ver.case3(machines))
-            //     cStrk.stop(machines);
+            if (ver.case1(machines) || ver.case2(machines) || ver.case3(machines))
+                cStrk.stop(machines);
             System.out.println("milk = " + cStrk.getMilk() + " error count : " + ver.errorCount);
         }
     }
